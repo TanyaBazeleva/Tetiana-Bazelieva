@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>
+Перевірка паліндрома 
+</title>
+
+</head>
+
+<body>
+</body>
+<form method='post'>
+Введіть текст: <br>
+<input type="text" name="TextInput" value="Текст за замовченням" novalidate maxlenght="100" size="100"> <br>
+
+<button>Натисни мене</button>
+
+
+</html>
