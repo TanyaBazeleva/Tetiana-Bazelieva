@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Тендерний відбір постачальників</title>
+</head>
+<body>
+    <h1>Тендер на вибір постачальників</h1>
+    <form method="POST" action="/">
+        <label>Коефіцієнт a1:</label>
+        <input type="number" name="a1" step="0.01" value="0.5" required>
+        <label>Коефіцієнт a2:</label>
+        <input type="number" name="a2" step="0.01" value="0.5" required>
+	<br><br>
+        <label>Список товарів:</label>
+        <input type="text" name="products" placeholder="P01,P02" required>
+	<br><br>
+        <input type="submit" value="Відправити">
+    </form>
+    <p>
+	$result
+    </p>
+</body>
+</html>

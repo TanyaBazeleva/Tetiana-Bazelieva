@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Конвертер валют</title>
+</head>
+<body>
+    <h1>Конвертер валют</h1>
+    <form method="POST" action="/">
+        <input type="text" name="amount" value="" placeholder="Введіть суму">
+        
+        <label for="from_currency">З:</label>
+        <select name="from_currency">
+            <option value="uah">UAH</option>
+            <option value="usd">USD</option>
+            <option value="eur">EUR</option>
+        </select>
+        
+        <label for="to_currency">В:</label>
+        <select name="to_currency">
+            <option value="uah">UAH</option>
+            <option value="usd">USD</option>
+            <option value="eur">EUR</option>
+        </select>
+        
+        <input type="submit" value="Конвертувати">
+    </form>
+    <p>$result</p>
+</body>
+</html>
