@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Фільтр книг</title>
+</head>
+<body>
+    <h1>Фільтрувати книги</h1>
+    <form method="get" action="/filter_result">
+        <input type="text" name="author" placeholder="Автор"><br>
+        <input type="text" name="title" placeholder="Назва"><br>
+        <input type="number" name="year_from" placeholder="Рік від">
+        <input type="number" name="year_to" placeholder="Рік до"><br>
+        <input type="submit" value="Фільтрувати">
+    </form>
+    <a href="/add">Додати нову книгу</a>
+</body>
+</html>
