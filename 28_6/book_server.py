@@ -4,7 +4,7 @@ import cgi
 import os
 from book_client import load_books, save_books, filter_books
 def render_html(filename):
-    path = os.path.join("templates", filename)
+    path = os.path.join("template", filename)
     with open(path, encoding="utf-8") as f:
         return f.read()
 def app(env, start_response):

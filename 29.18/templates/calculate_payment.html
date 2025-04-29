@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Розрахунок оплати</title>
+</head>
+<body>
+    <h1>Розрахунок плати за перевезення</h1>
+    <form method="POST" action="/calculate_payment">
+        <label>ID водія: <input type="number" name="driver_id" required></label><br><br>
+        <label>Початкова дата: <input type="date" name="start_date" required></label><br><br>
+        <label>Кінцева дата: <input type="date" name="end_date" required></label><br><br>
+        <input type="submit" value="Розрахувати плату">
+    </form>
+    <br>
+    <a href="/">Повернутися на головну</a>
+</body>
+</html>
